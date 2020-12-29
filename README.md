@@ -19,3 +19,7 @@ There are two table display windows in the Search DB tab. By selecting filters l
 
 ### File Menu
 There are three operation available In the File Menu: Open File, Disconnect to the Database, and Close the Application.
+
+The figure below demonstrates the database design:
+
+![plot](./image/Database.png)
