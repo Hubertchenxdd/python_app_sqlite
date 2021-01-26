@@ -1,6 +1,6 @@
 # python_app
 
-This is a small project using `PyQt5` and `SQLite` to buid an application for entering and storing data.
+This is a small project using `PyQt5` and `SQLite` to build an application for entering and storing data.
 
 ### Add Data
 The Add Data tab is designed for inputting data. Information in this window covers all tables connected to the database, including Fist Name, Last Name, City of Residence, Year of Birth, City of Birth and academic record information. All the blanks except for academic record are required. If the required information is missing or no database is connected, a corresponding warning message will pop up.
