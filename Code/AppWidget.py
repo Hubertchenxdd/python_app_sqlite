@@ -1,6 +1,6 @@
-from view import *
-from add import *
-from search import *
+from .view import *
+from .add import *
+from .search import *
 import sqlite3 as LDBI
 
 from PyQt5.QtWidgets import (
@@ -32,7 +32,7 @@ class AppWidget(QFrame):
 
     def __init__(self, parent=None):
         super().__init__(parent)
-        self.db = LDBI.connect('Academic.db')
+        self.db = LDBI.connect('Database/Academic.db')
         self.initUi()
 
     def initUi(self):

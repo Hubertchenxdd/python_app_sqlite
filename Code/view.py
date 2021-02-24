@@ -38,6 +38,9 @@ class View(QFrame):
         self.db.text_factory = str
         self.cur = self.db.cursor()
         self.result = self.cur.execute("SELECT name FROM sqlite_master WHERE type='table';").fetchall()
+        print("test",self.result)
+
+        #if len(self.result)>0:
         self.table_names = sorted(list(zip(*self.result))[0])
 
         self.table_list.addItems(self.table_names)

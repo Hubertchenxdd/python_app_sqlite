@@ -1,4 +1,4 @@
-from AppWidget import *
+from Code import AppWidget
 import sys
 
 
